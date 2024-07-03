@@ -1,0 +1,23 @@
+{
+  "name": "m03_eventserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "iniparser": "^1.0.5",
+    "mysql": "^2.18.1",
+    "node-geometry-library": "^1.2.6",
+    "nodemon": "^3.1.0",
+    "sse": "^0.0.8"
+  }
+}
